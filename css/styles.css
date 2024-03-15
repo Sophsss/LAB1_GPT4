@@ -470,39 +470,39 @@ p {
 
 /* Многое происходит, мы ведем об этом блог*/
 
-.blog_section {
+.blog {
   margin-top: 5rem;
   margin-bottom: 7rem;
 }
 
-.blog_section .blog_headder {
+.blog .blog_header {
   width: 66%;
   margin-bottom: 1rem;
 }
 
-.blog_section .all_news {
+.blog .all_news {
   display: flex;
   flex-direction: row;
   column-gap: 3rem;
 }
 
-.blog_section .all_news .main_news {
+.blog .all_news .first_news {
   display: flex;
   flex-direction: column;
   max-height: 669px;
 }
 
-.blog_section .all_news .news_img {
+.blog .all_news .news_img {
   width: 328px;
 }
 
-.blog_section .all_news .main_news .content_main_news {
+.blog .all_news .first_news .first_news__content {
   display: flex;
   height: 100%;
   width: 100%;
 }
 
-.blog_section .all_news .all_other_news {
+.blog .all_news .all_other_news {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -510,7 +510,7 @@ p {
   column-gap: 2rem;
 }
 
-.blog_section .all_news .all_other_news .content_other_news {
+.blog .all_news .all_other_news .other_news__content {
   width: 328px;
 }
 
@@ -583,25 +583,25 @@ p {
   
 }
 
-.footer .footer__header {
+.footer .footer_header {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.footer .footer__header .top__header{
+.footer .footer_header .footer_header__top{
   text-align: center;
   
 }
 
-.footer .footer__middle{
+.footer .footer_middle{
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 0 180px;
 }
 
-.footer .footer__middle .early_access_btn{
+.footer .footer_middle .req_access{
   border: 1px solid;
   font-size: 18px;
   border-color: #9b9b9b;
@@ -610,90 +610,72 @@ p {
   padding: 20px 70px;
 }
 
-.footer .footer__middle button:hover{
+.footer .footer_middle button:hover{
   color: #000000;
   background-color: #fff;
   border-color: black;
 }
 
-.footer .footer__bottom{
+.footer .footer_btm{
   display: flex;
   justify-content: space-between;
 }
 
-.footer .footer__bottom .logo{
+.footer .footer_btm .logo{
   flex-basis: 24%;
 } 
 
-.footer .footer__bottom .logo .GPT-3_logo{
+.footer .footer_btm .logo .GPT-3_logo{
   padding: 0 0 23px;
 }
 
-.footer .footer__bottom_right{
+.footer .footer_btm__right{
   display: flex;
   column-gap: 12rem; 
   justify-content: end;
   /* flex-basis: 68%; */
 }
 
-.footer .footer__bottom .address{
+.footer .footer_btm .address{
   font-size: 12px;
   width: 68%;
 }
 
-.footer .footer__bottom .footer__bottom_right .bottom__links_header{
+.footer .footer_btm .footer_btm__right .bottom_links{
   margin: 0px 0px 34px;
   font-size: 14px;
   text-align: start;
   font-weight: 700;
 }
 
-.footer .footer__bottom .footer__links .footer__info_links{
+.footer .footer_btm .footer_links .footer_info__links{
   display: flex;
   flex-direction: column;
   row-gap: 25px;
   text-align: start;
 }
 
-.footer .footer__bottom .footer__company_info .footer__company_links{
+.footer .footer_btm .footer__company_info .footer_company__links{
   display: flex;
   flex-direction: column;
   row-gap: 25px;
   text-align: start;
 }
 
-.footer .footer__bottom .footer__company_header{
-  margin: 0px 0px 34px;
-  text-align: start;
-}
-
-.footer .footer__bottom .footer__contact_info{
+.footer .footer_btm .footer__contact_info{
   width: 20%;
 }
 
-.footer .footer__bottom .footer__contact_info .footer__contact_content{
+.footer .footer_btm .footer__contact_info .footer__contact_content{
   display: flex;
   flex-direction: column;
   row-gap: 25px;
   text-align: start;
-  
 }
 
-.footer .footer__bottom .footer__contact_info .footer__contact_header{
-  margin: 0px 0px 34px;
-  text-align: start;
-}
-
-.footer .footer__bottom .footer__bottom_right .footer__link{
+.footer .footer_btm .footer_btm__right .footer__link{
   font-size: 12px;
-  /* font-weight: 100; */
   font-family: "ManropeLight";
-}
-
-.footer__copyright .copyright__info{
-  font-size: 12px;
-  text-align: center;
-  font-weight: 300;
 }
 
 /*© 2023 GPT-3. Все права защищены*/
